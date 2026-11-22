@@ -1,5 +1,5 @@
 name: CF Server Monitor Probe
-version: "1.0.0"
+version: "1.0.1"
 slug: "cfsm_probe"
 description: CF-Server-Monitor 探针（Home Assistant OS 加载项）
 url: https://github.com/huilang-me/CF-Server-Monitor
@@ -7,6 +7,7 @@ arch:
   - aarch64
 startup: application
 boot: auto
+init: false
 host_network: true
 host_pid: true
 options:
